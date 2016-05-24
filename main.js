@@ -266,7 +266,7 @@ var collideBottom = function (ent) {
 
 var ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("");
+ASSET_MANAGER.queueDownload("./img/blarg");
 
 ASSET_MANAGER.downloadAll(function () {
     console.log("starting up da sheild");
